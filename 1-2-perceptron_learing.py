@@ -1,0 +1,9 @@
+import random
+
+def show_learning(w):
+    print('w0 =', '%5.2f' % w[0], ', w1 =', '%5.2f' % w[1], ', w2 =', '%5.2f' % w[2])
+
+random.seed(7)
+LEARNING_RATE = 0.1
+index_list = [0, 1, 2, 3]
+
